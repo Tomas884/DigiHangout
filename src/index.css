@@ -1,0 +1,362 @@
+body{
+	background-color:#0099CC;
+	background-attachment:fixed;
+}
+
+.loginForm{
+	height:600px;
+	width:500px;
+	background-color:#FFFFFF;
+	margin: 1rem auto;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	position:absolute;
+	left:810px;
+	bottom:0px;
+}
+
+#loginText{
+	position:absolute;
+	left:50px;
+	top:20px;
+}
+
+#loginEmailOrUsernameTxtFldPosition{
+	position:absolute;
+	left:180px;
+	top:150px;
+}
+
+#loginPasswordTxtFldPosition{
+	position:absolute;
+	left:180px;
+	top:250px;
+}
+
+#loginButton{
+	position:absolute;
+	left:230px;
+	top:360px;
+}
+
+#LinkToPwdRecoveryPage{
+	position:absolute;
+	left:200px;
+	top:420px;
+}
+
+#LinkToRegisterFormPage{
+	position:absolute;
+	left:190px;
+	top:500px;
+}
+
+.registerForm{
+	height:600px;
+	width:500px;
+	background-color:#FFFFFF;
+	margin:1rem auto;
+	left:800px;
+	top:5px;
+	position:absolute;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+}
+
+#registerText{
+	position:absolute;
+	left:50px;
+	top:20px;
+}
+
+#regNameTxtFld{
+	position:absolute;
+	top:70px;
+	left:50px;
+}
+
+#regSurnameTxtFld{
+	position:absolute;
+	top:70px;
+	left:250px;
+}
+
+#regFormPleaseSelectDoBLbl{
+	position:absolute;
+	top:100px;
+	left:150px;
+}
+
+#regDobDayLblAndSelector{
+	position:absolute;
+	top:130px;
+	left:50px;
+}
+
+#regDobMonthLblAndSelector{
+	position:absolute;
+	top:130px;
+	left:170px;
+}
+
+#regDobYearLblAndSelector{
+	position:absolute;
+	top:130px;
+	left:300px;
+}
+
+#regMaleRadioLblAndBtn{
+	position:absolute;
+	top:180px;
+	left:50px;
+}
+
+#regFemaleRadioLblAndBtn{
+	position:absolute;
+	top:180px;
+	left:120px;
+}
+
+#regCountryAndCityOfOrigin{
+	position:absolute;
+	top:180px;
+	left:250px;
+}
+
+#regCountryAndCityWhereLive{
+	position:absolute;
+	top:230px;
+	left:50px;
+}
+
+#regUsernameTxtFld{
+	position:absolute;
+	top:230px;
+	left:250px;
+}
+
+#regEmailTxtFld{
+	position:absolute;
+	top:280px;
+	left:50px;
+}
+
+#regTelNumberTxtFld{
+	position:absolute;
+	top:280px;
+	left:250px;
+}
+
+#regProfilePicLbl{
+	position:absolute;
+	top:295px;
+	left:150px;
+}
+
+#regProfilePicArea{
+	position:absolute;
+	top:340px;
+	left:200px;
+	height:70px;
+	width:70px;
+	background-color:#000000;
+}
+
+#regProfilePicBrowseBtn{
+	position:absolute;
+	top:420px;
+	right:235px;
+}
+
+#regPwdTxtFld{
+	position:absolute;
+	top:450px;
+	left:50px;
+}
+
+#retypeRegPwdTxtFld{
+	position:absolute;
+	top:450px;
+	left:250px;
+}
+
+#agreementTickBox{
+	position:absolute;
+	top:245px;
+	left:35px;
+}
+
+#agreementTickBoxTxt{
+	position:absolute;
+	top:475px;
+	left:100px;
+}
+
+#registerButton{
+	position:absolute;
+	top:530px;
+	left:200px;
+}
+
+.deleteAccForm{
+	height:350px;
+	width:1000px;
+	background-color:#FFFFFF;
+	position:absolute;
+	left:200px;
+	top:120px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+}
+
+#deleteAccText{
+	position:absolute;
+	left:50px;
+	top:20px;
+}
+
+#delAccEmailOrUsernameTxtFld{
+	position:absolute;
+	left:150px;
+	top:70px;
+}
+
+#delAccPasswordTxtFld{
+	position:absolute;
+	left:250px;
+	top:70px;
+}
+
+#delAccConfirmCheckBox{
+	position:absolute;
+	left:150px;
+	top:100px;
+}
+
+#delAccConfirmTxt{
+	position:absolute;
+	left:330px;
+	top:185px;
+}
+
+#deleteOrDeactivateAccButton{
+	position:absolute;
+	left:420px;
+	top:250px;
+}
+
+.pwdRecoveryForm{
+	position:absolute;
+	height:400px;
+	width:700px;
+	background-color:#FFFFFF;
+	left:350px;
+	top:120px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+}
+
+#pwdRecoveryText{
+	position:absolute;
+	left:50px;
+	top:20px;
+}
+
+#pwdRecEmailTxtFldAndPwdRecBtn{
+	position:absolute;
+	left:150px;
+	top:150px;
+}
+
+.myAccDataArea{
+	position:absolute;
+	left:100px;
+	top:50px;
+	background-color:#FFFFFF;
+	height:550px;
+	width:500px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+}
+
+#guideHeading{
+	position:absolute;
+	right:100px;
+	top:30px;
+}
+
+#guideText{
+	position:absolute;
+	right:100px;
+	top:100px;
+}
+
+.homePgHeader{
+	width:1350px;
+	height:80px;
+	background-color:#FFFFFF;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.homePgContArea{
+	width:1350px;
+	height:530px;
+	position:absolute;
+	top:95px;
+	background-color:#FFFFFF;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.updateAccForm{
+	width:800px;
+	height:500px;
+	background-color:#FFFFFF;
+	position:absolute;
+	top:50px;
+	left:500px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+}
+
+.aboutParagraph{
+	width:800px;
+	height:300px;
+	background-color:#FFFFFF;
+	position:absolute;
+	top:260px;
+	left:80px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+}
+
+.themeConfigArea{
+	width:600px;
+	height:610px;
+	background-color:#FFFFFF;
+	position:absolute;
+	left:160px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
